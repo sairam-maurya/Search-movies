@@ -76,7 +76,7 @@ body {
 }
 
 .list img {
-  width: 100%;
+  width: 200px;
   max-width: 200px;
   height: auto;
 }
@@ -89,21 +89,31 @@ body {
 }
 
 
+@media (max-width:768px){
+   
 
-/* @media (max-width: 576px) {
-  .main {
-    margin-top: 1.2rem;
-  }
-
-  .search {
-    padding: 5px;
-  }
-
-  .search input {
-    font-size: 14px;
+  .box {
+    text-align: start; 
+    font-size: 14px; 
   }
 
   .list img {
-    max-width: 100%;
+
+    width: auto; 
+    max-width: 100%; 
+    height: auto; 
   }
-} */
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+

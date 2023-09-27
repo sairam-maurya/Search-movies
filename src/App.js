@@ -56,7 +56,7 @@ export default function App() {
           />
         </Box>
         <Box>
-          <MovieDetails selectedMovie={selectedMovie} />
+          <MovieDetails selectedMovie={selectedMovie}/>
         </Box>
       </Main>
     </>

@@ -8,7 +8,7 @@ function Movies({movies,handleMovieClick,IMG_BASE_URL}) {
               src={`${IMG_BASE_URL}/${movie.poster_path}`}
               alt={movie.title}
             />
-            <p>{movie.title}</p>
+            <p><span>Title:</span>{movie.title}</p>
           </div>
         ))}
       </div>
