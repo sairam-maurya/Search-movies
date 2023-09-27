@@ -55,7 +55,7 @@ body {
 
 .box {
   width: 42rem;
-  max-width: 100%; /* Adjusted for responsiveness */
+  max-width: 100%;
   background-color: var(--color-background-500);
   border-radius: 0.9rem;
   overflow: scroll;
@@ -71,14 +71,14 @@ body {
 
 .list {
   display: flex;
-  flex-wrap: wrap; /* Adjusted for responsiveness */
+  flex-wrap: wrap;
   margin: 10px;
 }
 
 .list img {
-  width: 100%; /* Adjusted for responsiveness */
-  max-width: 200px; /* You can adjust this value as needed */
-  height: auto; /* Maintain aspect ratio */
+  width: 100%;
+  max-width: 200px;
+  height: auto;
 }
 
 .list p {
