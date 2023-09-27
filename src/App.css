@@ -100,7 +100,7 @@ body {
   }
 }
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   .main {
     margin-top: 1.2rem;
   }
@@ -116,4 +116,4 @@ body {
   .list img {
     max-width: 100%;
   }
-}
+} */
